@@ -9,7 +9,7 @@ import com.example.LaboratorioI.entity.Employee;
 import com.example.LaboratorioI.repository.EmployeeRepositiry;
 
 @Service
-public class EmployeeService {
+public class EmployeeService implements InterfeceEmployeeService {
 	@Autowired
 	EmployeeRepositiry repo;
 
